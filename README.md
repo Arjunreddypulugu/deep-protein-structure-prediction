@@ -1,11 +1,11 @@
-## Protein Structure Modeling with Deep Learning (Tensorflow-Keras)
+# Protein Structure Modeling with Deep Learning (Tensorflow-Keras)
 
-# Introduction and little-bit about proteins
+## Introduction and little-bit about proteins
 - Protein molecules are essential to all biological functions. All living things are consisted of cells. All proteins are consisted of chains of 21 fundamental units knows as amino acids. And those fundamental units (amino acids) of proteins are connected by a chemical bond known as peptide bonds (type of a covalent bond). DNA molecules in cells encode information about how proteins is formed by combining amino acids (fundamental building blocks of all protein molecules). So cells are the factories that produce different types of proteins, which are essential for life. [Try this nice and short YouTube video to learn more about Proteins](https://www.youtube.com/watch?v=wvTv8TqWC48).
 
-Some examples of protein molecules in human body include hemoglobin in blood, various types of enzymes that help with chemical reactions, antibodies in immune system, and collagens in bone structure, so on. Properties of different protein molecules are determined by its 3D structure. So, determining 3D structure is very important and classic problem in biology. Recent deep learning techniques are getting popular in protein structure detection problems.
+- Some examples of protein molecules in human body include hemoglobin in blood, various types of enzymes that help with chemical reactions, antibodies in immune system, and collagens in bone structure, so on. Properties of different protein molecules are determined by its 3D structure. So, determining 3D structure is very important and classic problem in biology. Recent deep learning techniques are getting popular in protein structure detection problems.
 
-In theory, there are 3 levels of protein structure representations.
+-- In theory, there are 3 levels of protein structure representations.
 
 Primary structure - represented by the sequence of amino acids.
 Secondary structure - intermediate structure of proteins mainly consisted of major 2 types of secondary structure known as Alpha Helixes (sections of protein chain looks like spiral) and Beta Sheets (sections of protein chain looks like flat sheet).
