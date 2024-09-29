@@ -14,59 +14,26 @@
   
 Here I'm focusing on prediction of tertiary structure of a protein from the primary structure (sequences of amino acids). So here, I'm trying to build a neural network that can input sequence of amino acids and output 3D structure of proteins (coordinates of major atoms in proteins that define the overall shape of the protein).
 
-## Nice proteins datasets
-Lot's protein 3D structures are organized in Protein Data Bank. And from these datasets, yearly competition is organized to find out best performing algorithm for protein structure prediction. This competition is known as CASP. Hence standardized datasets can be obtained through this competition to test machine learning algorithms. Furthermore, this CASP competition datasets were well organized and published in deep learning / machine learning friendly manner through a project call ProteinNet. So, here, I'm using a small sample of ProteinNet dataset.
+## Protein datasets
+Lot's of protein 3D structures are organized in [Protein Data Bank](https://www.rcsb.org/). And from these datasets, yearly competition is organized to find out best performing algorithm for protein structure prediction. This competition is known as [CASP](https://predictioncenter.org/). Hence standardized datasets can be obtained through this competition to test machine learning algorithms. Furthermore, this CASP competition datasets were well organized and published in deep learning / machine learning friendly manner through a project call [ProteinNet](https://github.com/aqlaboratory/proteinnet). So, here, I'm using a small sample of ProteinNet dataset.
 
-Libraries used here
-numpy
-matplotlib
-tensorflow v1.15 (keras)
-Citation
-Use this bibtex to cite this repository.
+## Libraries used here
+- numpy
+- matplotlib
+- tensorflow (keras)
 
-@misc{deep-protein-structure-modeling,
-  title={Protein Structure Modeling with Deep Learning (Tensorflow-Keras)},
-  author={N. Lakmal Deshapriya},
-  year={2020},
-  publisher={Github},
-  journal={GitHub repository},
-  howpublished={\url{https://github.com/lakmalnd/deep-protein-structure-modeling}},
-}
-References (for sample data used in exercises)
-Dataset for this pet project is obtained from ProteinNet. And GitHub repository of ProteinNet dataset can be accessed here, ProteinNet.
+## References (for sample data used in exercises)
+Dataset for this pet project is obtained from ProteinNet. And GitHub repository of ProteinNet dataset can be accessed here, [ProteinNet](https://github.com/aqlaboratory/proteinnet).
 
 Dataset: Copyright (c) 2018 AlQuraishi Laboratory
 
-AlQuraishi, M. ProteinNet: a standardized data set for machine learning of protein structure. BMC Bioinformatics 20, 311 (2019). https://doi.org/10.1186/s12859-019-2932-0
-Other nice references
-This paper is about Google Deepmind's neural network called "alphafold". These 2 videos also nicely explained "alphafold" in detail, (AlphaFold: Improved protein structure prediction and DeepMind AlphaFold)
+- AlQuraishi, M. ProteinNet: a standardized data set for machine learning of protein structure. BMC Bioinformatics 20, 311 (2019). https://doi.org/10.1186/s12859-019-2932-0
 
-Senior, A.W., Evans, R., Jumper, J. et al. Improved protein structure prediction using potentials from deep learning. Nature 577, 706–710 (2020). https://doi.org/10.1038/s41586-019-1923-7
-This is another nice paper that I also got some inspiration for this pet project.
+## Other nice references
+- This paper is about Google Deepmind's neural network called "alphafold". These 2 videos also nicely explained "alphafold" in detail, (AlphaFold: Improved protein structure prediction and DeepMind AlphaFold)
 
-Wang S, Sun S, Li Z, Zhang R, Xu J. Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS Comput Biol. 2017;13(1):e1005324. Published 2017 Jan 5. doi:10.1371/journal.pcbi.1005324
-About
-This repository is about prediction of tertiary structure of proteins from the primary structure of proteins (sequences of amino acids). So here, I'm trying to build a neural network that can input sequence of amino acids and output 3D structure of proteins (coordinates of major atoms in proteins that define the overall shape of the protein).
+ Senior, A.W., Evans, R., Jumper, J. et al. Improved protein structure prediction using potentials from deep learning. Nature 577, 706–710 (2020). https://doi.org/10.1038/s41586-019-1923-7
+  
+- This is another nice paper that I also got some inspiration for this pet project.
 
-Topics
-deep-learning protein-structure
-Resources
- Readme
-License
- MIT license
- Activity
-Stars
- 1 star
-Watchers
- 1 watching
-Forks
- 8 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-Jupyter Notebook
-100.0%
-Footer
+ Wang S, Sun S, Li Z, Zhang R, Xu J. Accurate De Novo Prediction of Protein Contact Map by Ultra-Deep Learning Model. PLoS Comput Biol. 2017;13(1):e1005324. Published 2017 Jan 5. doi:10.1371/journal.pcbi.1005324
