@@ -7,13 +7,14 @@
 
 -- In theory, there are 3 levels of protein structure representations.
 
-Primary structure - represented by the sequence of amino acids.
-Secondary structure - intermediate structure of proteins mainly consisted of major 2 types of secondary structure known as Alpha Helixes (sections of protein chain looks like spiral) and Beta Sheets (sections of protein chain looks like flat sheet).
-Tertiary structure - 3D structure of the protein.
-Quaternary structure - formed by combinations of several proteins.
+- Primary structure - represented by the sequence of amino acids.
+- Secondary structure - intermediate structure of proteins mainly consisted of major 2 types of secondary structure known as Alpha Helixes (sections of protein chain looks like spiral) and Beta Sheets (sections of protein chain looks like flat sheet).
+- Tertiary structure - 3D structure of the protein.
+- Quaternary structure - formed by combinations of several proteins.
+  
 Here I'm focusing on prediction of tertiary structure of a protein from the primary structure (sequences of amino acids). So here, I'm trying to build a neural network that can input sequence of amino acids and output 3D structure of proteins (coordinates of major atoms in proteins that define the overall shape of the protein).
 
-Nice proteins datasets
+## Nice proteins datasets
 Lot's protein 3D structures are organized in Protein Data Bank. And from these datasets, yearly competition is organized to find out best performing algorithm for protein structure prediction. This competition is known as CASP. Hence standardized datasets can be obtained through this competition to test machine learning algorithms. Furthermore, this CASP competition datasets were well organized and published in deep learning / machine learning friendly manner through a project call ProteinNet. So, here, I'm using a small sample of ProteinNet dataset.
 
 Libraries used here
